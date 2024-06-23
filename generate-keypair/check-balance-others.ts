@@ -1,6 +1,8 @@
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
+// Get the public key from the command line arguments
 const suppliedPublicKey = process.argv[2];
+// Check if the public key was provided
 if (!suppliedPublicKey) {
     throw new Error("Provide a public key to check the balance of!");
 }
