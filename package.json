@@ -12,6 +12,7 @@
   "dependencies": {
     "@bonfida/spl-name-service": "^2.5.4",
     "@solana-developers/helpers": "^2.3.0",
+    "@solana/spl-name-service": "^0.2.1",
     "@solana/web3.js": "^1.93.2",
     "dotenv": "^16.4.5",
     "esrun": "^3.2.26",
