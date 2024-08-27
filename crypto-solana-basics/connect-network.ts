@@ -1,4 +1,5 @@
-import {Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL} from "@solana/web3.js"
+import {Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL} from "@solana/web3.js";
+
 
 const connection = new Connection(clusterApiUrl("devnet"));
 const address = new PublicKey("CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN");

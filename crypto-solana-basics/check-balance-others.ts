@@ -1,4 +1,5 @@
 import {clusterApiUrl, Connection, LAMPORTS_PER_SOL, PublicKey} from "@solana/web3.js";
+// @ts-ignore
 import {resolve} from "@bonfida/spl-name-service";
 
 
@@ -7,6 +8,7 @@ if (!suppliedAddress) {
     throw new Error("Provide a public key to check the balance of!");
 }
 
+// @ts-ignore
 const connection = new Connection(clusterApiUrl("mainnet-beta"), "bonfida");
 
 async function getPublicKey(address: string) {
